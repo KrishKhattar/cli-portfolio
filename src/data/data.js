@@ -1,10 +1,10 @@
 export const about = {
-  name: "Krish",
+  name: "Krish (KK)",
   role: "Software Developer Trainee at Antino",
   focus: "Node.js Specialist",
   skills: [
     "TypeScript",
-    "JavaScript (ES Modules)",
+    "JavaScript",
     "Express",
     "PostgreSQL",
     "MongoDB",
@@ -72,14 +72,9 @@ export const community = {
   hackathons: [
     {
       name: "Hack The Mountains",
-      role: "Organizer",
+      role: "Organizing",
       description: "Managed both online and hybrid editions"
     },
-    {
-      name: "Educhain Hackathon",
-      role: "Participant",
-      project: "Bharat Niwas"
-    }
   ]
 };
 
@@ -92,10 +87,10 @@ export const interests = [
 ];
 
 export const contact = {
-  github: "github.com/krish",
-  linkedin: "linkedin.com/in/krish",
-  twitter: "@krish_dev",
-  email: "krish@example.com"
+  github: "http://github.com/krishkhattar",
+  linkedin: "http://linkedin.com/in/krishkhattar",
+  twitter: "http://x.com/krish_khattar",
+  email: "krish.khattar@gmail.com"
 };
 
 export const easterEggs = [

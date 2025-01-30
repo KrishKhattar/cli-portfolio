@@ -1,7 +1,7 @@
-import { showTitle } from './src/utils/display.js';
-import { mainMenu } from './src/menu.js';
-import { checkEasterEgg } from './src/commands/easterEggs.js';
-import { colors } from './src/utils/display.js';
+import { showTitle } from './utils/display.js';
+import { mainMenu } from './menu.js';
+import { checkEasterEgg } from './commands/easterEggs.js';
+import { colors } from './utils/display.js';
 
 async function welcome() {
   await showTitle('KK\'s Portfolio');
