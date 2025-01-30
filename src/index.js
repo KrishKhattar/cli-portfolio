@@ -2,6 +2,9 @@ import { showTitle } from './utils/display.js';
 import { mainMenu } from './menu.js';
 import { checkEasterEgg } from './commands/easterEggs.js';
 import { colors } from './utils/display.js';
+import dotenv from 'dotenv';
+
+dotenv.config({ path: './.env' });
 
 async function welcome() {
   await showTitle('KK\'s Portfolio');

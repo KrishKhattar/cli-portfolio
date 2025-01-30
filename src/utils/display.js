@@ -16,6 +16,7 @@ export async function showLoadingSpinner(text) {
   spinner.success();
 }
 
+
 export function formatSection(title) {
   console.clear();
   console.log(chalk.blue(`\n=== ${title} ===\n`));

@@ -1,6 +1,7 @@
 import inquirer from 'inquirer';
 import { colors } from './utils/display.js';
 import { showAbout } from './commands/about.js';
+import { talkToMyAI } from './commands/ai.js';
 import { showProjects } from './commands/projects.js';
 import { showCommunity } from './commands/community.js';
 import { showContact } from './commands/contact.js';
@@ -8,6 +9,7 @@ import { searchPortfolio } from './commands/search.js';
 
 const menuChoices = [
   'About Me',
+  'Talk to My AI',
   'Projects',
   'Community Work',
   'Contact',
@@ -27,6 +29,9 @@ export async function mainMenu() {
     switch (action) {
       case 'About Me':
         await showAbout();
+        break;
+      case 'Talk to My AI':
+        await talkToMyAI();
         break;
       case 'Projects':
         await showProjects();
